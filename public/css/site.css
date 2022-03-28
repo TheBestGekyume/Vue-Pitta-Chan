@@ -1,0 +1,261 @@
+/* link da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* Primeira vista */
+
+body{
+    background-color:#2D2F38;
+    font-family: 'Tahoma, Geneva, Verdana, sans-serif';
+    /* overflow-x: hidden; */
+}
+
+
+nav{
+    height: auto;
+    top:0;
+    z-index:10;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-family:'arial';
+    line-height: 30px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+#login{
+    margin-left:0px ;
+    padding-left:25px;
+    padding-right: 0 ;
+}
+
+#login:hover{
+    background-color:#3F838A ;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#ffffff;
+    background-color:#236a80;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #d8d8d8;
+    padding: 8px 40px;
+    margin: 0 5px;
+}
+
+.navbar-toggler:focus:hover {
+    box-shadow: none;
+    border:solid 2px #ffffff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border:solid 2px #3F838A;;
+}
+
+header{  
+    text-align:center;
+    background-image: url(../img/background.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100%;
+    min-height: 550px;
+}
+
+#button1{
+    background-color: #ae0000;
+    margin-top:255px;
+}
+
+#button2{
+    background-color: #00cc00;
+    margin-top:270px;
+
+}
+
+#button3{
+    background-color: #0300a7;
+    margin-top:255px;
+}
+
+#button4{
+    background-color: #04ed3a;
+}
+
+#button5{
+    background-color: #e502a9;
+}
+
+#button1:hover{
+    border-bottom:solid 5px #6d0000;
+    background-color:#d80101 ;
+    color: #ffffff;
+}
+
+#button2:hover{
+    border-bottom:solid 5px #007013;
+    background-color: #00e400;
+    color: #ffffff;
+}
+
+#button3:hover{
+    border-bottom:solid 5px #19005e;
+    background-color: #0400d4;
+    color: #ffffff;
+}
+
+#button4:hover{
+    border-left:solid 5px #02bd2d;
+    background-color: #00ff3c;
+    color: #ffffff;
+}
+
+#button5:hover{
+    border-left:solid 5px #a30078;
+    background-color: #ff00bb;
+    color: #ffffff;
+}
+
+#sm_text{
+    position: relative;
+    top: 84px;
+}
+
+#up_buttom{
+    font-size: 90px;
+}
+
+/* CLASS */
+.button{
+    border: none;
+    color: #e6e6e6;
+    padding: 18px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+.text_default{
+    color:#ffffff;
+    font-size: 22px;
+}
+
+.text_config{
+    text-align: center;
+}
+
+.font_text{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title{
+    color: #015C44;
+    font-size: 30pt;
+}
+
+.section_space{
+    padding: 70px 0;
+}
+
+.img_postion_left{
+    text-align: left;
+    padding: 0;
+}
+
+.img_postion_righ{
+    text-align: right;
+    padding: 0;
+}
+
+.gradient{
+    background-image: linear-gradient(to top right,#6e4cc4 ,#e4396d ,#b43bae,#f7b75f  );
+    border-radius: 10%;
+}
+
+.nolink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.copyRight {
+    font-size: 14px;
+    text-align: right;
+    background-color: #31313d
+}
+
+
+
+@media screen and (max-width:760px){
+    nav ul {
+        display: block;
+    }
+    
+    nav ul li {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+
+    #button1{
+        background-color: #ae0000;
+        margin-top:155px;
+    }
+        
+    #button2{
+        background-color: #00cc00;
+        margin-top:20px;
+    }
+        
+    #button3{
+        background-color: #0300a7;
+        margin-top:20px;
+    }
+    
+    #login{
+        margin:0px !important ;
+        border-top:solid 1px ;
+        padding: 10px 6px;
+    }
+
+    .mb-2 {
+        margin-bottom: 0 !important;
+      }
+
+    .border-start {
+        border-left: 0 !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+            color: #d8d8d8;
+            padding: 10px 0;
+            margin: px ;
+    }
+    .navbar-toggler {
+        font-size:30px;
+      }
+
+    .img_postion_left, .img_postion_right{
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    
+    #up_buttom{
+        font-size: 280%;
+        position: relative;
+        bottom: 8px;
+    }
+ 
+}
